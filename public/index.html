@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
 
 
+
+
   <title>Real Time Polling</title>
 </head>
 
@@ -19,29 +21,29 @@
     <p>Vote for your favorite Backend stack to develop on</p>
     <form id="vote-form">
       <p>
-        <label>
-          <input class="with-gap" type="checkbox" name="backend" id="php7" value="PHP7">
+        <label for="php7">
+          <input class="with-gap" type="radio" name="backend" id="php7" value="php7">
           <span>PHP 7</span>
         </label>
       </p>
 
       <p>
-        <label>
-          <input class="with-gap" type="checkbox" name="backend" id="phyton" value="phyton">
+        <label for="phyton">
+          <input class="with-gap" type="radio" name="backend" id="phyton" value="phyton">
           <span>Phyton</span>
         </label>
       </p>
 
       <p>
-        <label>
-          <input class="with-gap" type="checkbox" name="backend" id="nodejs" value="Nodejs">
+        <label for="nodejs">
+          <input class="with-gap" type="radio" name="backend" id="nodejs" value="nodejs">
           <span>NodeJs</span>
         </label>
       </p>
 
       <p>
-        <label>
-          <input class="with-gap" type="checkbox" name="backend" id="ruby" value="Ruby">
+        <label for="ruby">
+          <input class="with-gap" type="radio" name="backend" id="ruby" value="ruby">
           <span>Ruby</span>
         </label>
       </p>
@@ -52,7 +54,7 @@
     <br>
     <br>
 
-    <div id="charContainer" style="height: 300px; width: 100%;"></div>
+    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
   </div>
 
 
@@ -64,6 +66,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.2.2/pusher.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
   <script src="main.js"></script>
+
 </body>
 
 </html>

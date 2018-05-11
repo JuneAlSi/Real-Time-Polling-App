@@ -25,6 +25,6 @@ router.post('/', (req, res) => {
     success: true,
     message: 'Thank you for voting.'
   })
-})
+});
 
 module.exports = router;
