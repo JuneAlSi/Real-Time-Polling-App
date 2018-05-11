@@ -1,0 +1,29 @@
+{
+  "name": "real_time_polling_app",
+  "version": "1.0.0",
+  "description": "A simple real time polling app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuneAlSi/Real-Time-Polling-App.git"
+  },
+  "author": "JuneAlSi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuneAlSi/Real-Time-Polling-App/issues"
+  },
+  "homepage": "https://github.com/JuneAlSi/Real-Time-Polling-App#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.0",
+    "pusher": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
