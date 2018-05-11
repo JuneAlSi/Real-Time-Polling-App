@@ -2,4 +2,4 @@
 
 This is a simple real time polling app with NodeJS.
 
-![Screenshot](polling.jpg)
+![alt text](https://github.com/JuneAlSi/Real-Time-Polling-App/blob/master/polling.JPG)
